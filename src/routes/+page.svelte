@@ -1,2 +1,2 @@
 <h1>You're information just got robbed</h1>
-<p>GET ROBBED IDIOT</p>
+<p>GET ROBBED IDIOT :DDDDDD</p>
