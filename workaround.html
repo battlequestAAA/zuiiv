@@ -1,29 +1,26 @@
 <!DOCTYPE html>
+<html>
     <head>
-        <script>
-            type="text/javascript">document.domain = 'statusdashboard.com';
+        <script type="text/javascript">
+            document.domain = 'statusdashboard.com';
         </script>
         <script>
-            var ifr = document.getElementById(Main);
-            var ifrDoc = ifr.contentDocument || ifr.contentWindow.document;
+            window.onload = function() {
+                var ifr = document.getElementById('Main');
+                var ifrDoc = ifr.contentDocument || ifr.contentWindow.document;
+                // You can now access the iframe's document
+            };
         </script>
     </head>
-
     <body>
         <div>
             <iframe id="Main" src="https://advancedhealthandcare.statusdashboard.com/" style="border:0px #ffffff none;" scrolling="no" height="100%" width="100%" allowfullscreen></iframe>
         </div>
-
         <div>
             <link rel="import" href="https://advancedhealthandcare.statusdashboard.com/">
         </div>
-
         <div>
             <p>test</p>
         </div>
-
-
     </body>
-
-
 </html>
